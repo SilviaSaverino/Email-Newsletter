@@ -43,6 +43,21 @@
 			border-spacing: 0;
 			color: #4a4a4a;
 		}
+		.two-cols {
+			text-align: center;
+			font-size: 0;
+			padding: 40px 0;
+		}
+		.two-cols .column {
+			width: 100%;
+			max-width: 300px;
+			display: inline-block;
+			vertical-align: top;
+			text-align: center;
+			font-size: 18px;
+			padding-bottom: 30px;
+		}
+
 	</style>
 </head>
 
@@ -62,7 +77,7 @@
 				<td>
 					<table width="100%">
 						<tr>
-							<td style="text-align: center; padding: 15px" >
+							<td style="text-align: center; padding: 15px">
 								<a href="https://example.com"><img src="https://i.ibb.co/g4FDmNW/apparel.png"
 										alt="Apparel Logo" width="180" title="Apparel"></a>
 							</td>
@@ -75,14 +90,57 @@
 			<tr>
 				<td>
 					<a href="https://example.com"><img src="https://i.ibb.co/Bqh0yp5/banner.jpg"
-						alt="banner image of a well dressed young man" width="600" title="banner image" style="max-width: 100%;"></a>
+							alt="banner image of a well dressed young man" width="600" title="banner image"
+							style="max-width: 100%;"></a>
 				</td>
 			</tr>
 
 			<!-- BACKGROUND COLOR TEXT -->
-
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td style="text-align:center; font-size: 25px; background-color:#b8714e; color:#fafafa;">
+								<p>SHOP OUR LATEST DEALS</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
 
 			<!-- TWO COLUMN SECTION -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="two-cols">
+								<table class="column">
+									<tr>
+										<td>
+											<a href="https://example.com"><img src="https://i.ibb.co/RpSVmT2/women.jpg"
+													alt="casual dressed young woman" width="300" title="Apparel model"
+													style="max-width: 300px; padding-bottom:40px;"></a>
+											<a href="" class="button">SHOP WOMEN</a>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td>
+											<a href="https://example.com"><img src="https://i.ibb.co/1rBQLGZ/men.jpg"
+													alt="casual dressed young man" width="300" title="Apparel model"
+													style="max-width: 300px; padding-bottom:40px;"></a>
+											<a href="" class="button">SHOP MEN</a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+
+					</table>
+
+				</td>
+			</tr>
 
 
 			<!-- FOOTER SECTION -->
