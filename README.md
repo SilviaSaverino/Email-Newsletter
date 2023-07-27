@@ -1,5 +1,14 @@
-### Notes:
+# Email newsletter
+This project has been built following Drew Ryan [tutorial](https://www.youtube.com/watch?v=RDfslONy404).
 
+It is not optimized for all email clients, such as Outlook, as it doesn't include ghost tables and conditional statements.
+
+### Live Site:
+
+<!-- Check out the project Live Site -->
+
+### Notes:
+The following are personal notes for educational purposes only:
 #### Line 29:
 ```
 .wrapper {
